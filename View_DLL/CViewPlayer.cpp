@@ -16,9 +16,9 @@ void CViewPlayer::testFun()
 	);
 
 	// 判断指针是否有效
-	//ASSERT(m_pSDLWindow);
+	assert(m_pSDLWindow);
 
-	SDL_Delay(1000);
+	SDL_Delay(3000);
 
 	SDL_DestroyWindow(m_pSDLWindow);
 

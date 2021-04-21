@@ -9,5 +9,4 @@ int main()
 {
 	IViewPlayer* iView = IViewPlayer::s_GetInstance();
 	iView->testFun();
-
 }

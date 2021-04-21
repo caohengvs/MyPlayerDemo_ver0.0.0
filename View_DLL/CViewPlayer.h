@@ -10,7 +10,6 @@ public:
 
 public:
 	virtual void testFun() override;
-	//virtual BOOL test() override;
 
 private:
 	SDL_Window* m_pSDLWindow = nullptr;
