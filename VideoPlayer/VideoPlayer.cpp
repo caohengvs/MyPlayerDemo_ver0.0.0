@@ -2,8 +2,11 @@
 //
 
 #include <iostream>
+#include"../View_DLL/IView.h"
+#pragma comment(lib,"View_DLL.lib")
 using namespace std;
 int main()
 {
-
+	IView* iView = IView::s_GetInstance();
+	iView->testFun();
 }
