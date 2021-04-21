@@ -27,10 +27,13 @@
     <ClInclude Include="LocalDefine.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="IView.h">
+    <ClInclude Include="LocalHeader.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="CView.h">
+    <ClInclude Include="CViewPlayer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IViewPlayer.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
@@ -38,10 +41,10 @@
     <ClCompile Include="pch.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="CView.cpp">
+    <ClCompile Include="IViewPlayer.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="IView.cpp">
+    <ClCompile Include="CViewPlayer.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
