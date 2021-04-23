@@ -13,3 +13,13 @@ IViewPlayer* IViewPlayer::s_GetInstance()
 
 	return m_sInstance;
 }
+
+IViewPlayer* IViewPlayer::s_DestroyInstance()
+{
+	if (m_sInstance)
+	{
+		delete m_sInstance;
+		m_sInstance = nullptr;
+	}
+	return m_sInstance;
+}

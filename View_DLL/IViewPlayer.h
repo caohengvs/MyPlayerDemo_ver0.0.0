@@ -13,8 +13,10 @@ public:
 public:
 	static IViewPlayer* s_GetInstance();
 
+	static IViewPlayer* s_DestroyInstance();
+
 public:
 	virtual void testFun() = 0;
+	virtual void InitVideoPlayer()  = 0;
 
-	//virtual BOOL test() = 0;
 };

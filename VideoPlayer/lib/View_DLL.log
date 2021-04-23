@@ -1,6 +1,8 @@
 ﻿  pch.cpp
   CViewPlayer.cpp
+D:\MyPlayerDemo_ver0.0.0\ffmpeg\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
   IViewPlayer.cpp
+D:\MyPlayerDemo_ver0.0.0\ffmpeg\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
   正在生成代码...
     正在创建库 D:\MyPlayerDemo_ver0.0.0\VideoPlayer\lib\View_DLL.lib 和对象 D:\MyPlayerDemo_ver0.0.0\VideoPlayer\lib\View_DLL.exp
   View_DLL.vcxproj -> D:\MyPlayerDemo_ver0.0.0\VideoPlayer\x64\Debug\View_DLL.dll

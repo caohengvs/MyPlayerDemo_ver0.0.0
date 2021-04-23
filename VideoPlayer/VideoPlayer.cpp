@@ -8,5 +8,6 @@ using namespace std;
 int main()
 {
 	IViewPlayer* iView = IViewPlayer::s_GetInstance();
-	iView->testFun();
+	iView->InitVideoPlayer();
+	return 0;
 }
